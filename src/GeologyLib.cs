@@ -22,6 +22,8 @@ namespace GeologyLib
             base.Start(api);
 
             api.RegisterBlockClass("BlockSodastraws", typeof(BlockSodastraws));
+            api.RegisterBlockClass("BlockVerticalGenerator", typeof(BlockVerticalGenerator));
+
         }
     }
 }
